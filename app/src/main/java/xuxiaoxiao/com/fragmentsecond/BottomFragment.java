@@ -10,10 +10,10 @@ import android.view.ViewGroup;
  * Created by mac on 2016/12/16.
  */
 
-public class RightFragment extends Fragment {
+public class BottomFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.right_fragment,container,false);
+        View view = inflater.inflate(R.layout.bottom_fragment,container,false);
         return view;
     }
 }

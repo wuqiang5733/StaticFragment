@@ -9,17 +9,22 @@
 
     <fragment
         android:id="@+id/left_fragment"
-        android:name="xuxiaoxiao.com.fragmentsecond.LeftFragment"
+        android:name="xuxiaoxiao.com.fragmentsecond.TopFragment"
         android:layout_width="match_parent"
-        android:layout_height="10dp"
-        android:layout_weight="1"
-        />
+        android:layout_height="0dp"
+        android:layout_weight="1" />
 
-    <fragment
-        android:id="@+id/right_fragment"
-        android:name="xuxiaoxiao.com.fragmentsecond.RightFragment"
+    <!--<fragment-->
+        <!--android:id="@+id/bottom_fragment"-->
+        <!--android:name="xuxiaoxiao.com.fragmentsecond.BottomFragmentt"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="10dp"-->
+        <!--android:layout_weight="1"-->
+        <!--/>-->
+    <FrameLayout
+        android:id="@+id/bottom_layout"
         android:layout_width="match_parent"
-        android:layout_height="10dp"
+        android:layout_height="0dp"
         android:layout_weight="1"
-        />
+    />
 </LinearLayout>
